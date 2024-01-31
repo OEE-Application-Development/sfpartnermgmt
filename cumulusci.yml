@@ -1,0 +1,27 @@
+minimum_cumulusci_version: '3.72.1'
+project:
+    name: sfpartnermgmt
+    package:
+        name: sfpartnermgmt
+        api_version: '55.0'
+    dependencies:
+        - github: 'https://github.com/SalesforceFoundation/EDA'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/sfpartnermgmt/tests
+            options:
+                outputdir: robot/sfpartnermgmt/results
+
+    robot_testdoc:
+        options:
+            path: robot/sfpartnermgmt/tests
+            output: robot/sfpartnermgmt/doc/sfpartnermgmt_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75

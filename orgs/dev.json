@@ -1,0 +1,29 @@
+{
+  "orgName": "sfpartnermgmt - Dev Org",
+  "sourceOrg": "00D6g000002hydVEAQ",
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "userManagementSettings": {
+      "enableNewProfileUI": true
+    },
+    "securitySettings": {
+      "enableAdminLoginAsAnyUser": true,
+      "sessionSettings": {
+        "forceRelogin": false
+      }
+    },
+    "languageSettings": {
+      "enableTranslationWorkbench": true
+    }
+  },
+  "objectSettings": {
+    "account": {
+      "defaultRecordType": "Administrative"
+    }
+  }
+}
