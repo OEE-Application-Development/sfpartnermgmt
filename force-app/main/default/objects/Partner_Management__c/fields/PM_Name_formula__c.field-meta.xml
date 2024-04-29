@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_Name_formula__c</fullName>
+    <description>Creating a field to be used in the flow to name the object itself, was: LEFT(Account__r.Name, 7) &amp; &quot; - &quot; &amp; &quot;PartnerManagment&quot;
+This field should be hidden, and have updated the formula since going live, was &quot;PartnerMgmt&quot; &amp; &quot; - &quot; &amp; College_or_Business__r.Name
+last update Feb 1 (Easton)</description>
+    <externalId>false</externalId>
+    <formula>&quot;PartnerMgmt&quot; &amp; &quot; - &quot; &amp;   Picklist_Mapping__c  &amp; &quot; - &quot; &amp; PM_AutoNumber__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Created for the flow to rename the object itself</inlineHelpText>
+    <label>PM Name formula</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

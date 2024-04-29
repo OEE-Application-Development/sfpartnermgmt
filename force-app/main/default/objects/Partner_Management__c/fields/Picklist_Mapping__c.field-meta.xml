@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Picklist_Mapping__c</fullName>
+    <description>This is a &quot;helper&quot; formula field that reads the picklist, and the output of this formula is used in the naming convention formula field. 
+need to add &apos;Department&apos;, Department__r.Name, back in, as soon as we clean up the Dept record type ID situation. This field will only be on the layout during final testing but should be hidden otherwise</description>
+    <externalId>false</externalId>
+    <formula>CASE
+(Level_or_Type__c, 
+&apos;College/Business/Educational&apos;, College_or_Business__r.Name, 
+&apos;Department&apos;,  Department__r.Name,
+&apos;Program&apos;, Program__r.Name, &apos;&apos;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Picklist Mapping</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

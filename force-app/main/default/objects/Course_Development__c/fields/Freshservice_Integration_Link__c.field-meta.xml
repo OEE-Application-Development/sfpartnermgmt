@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Freshservice_Integration_Link__c</fullName>
+    <description>URL to the related ticket</description>
+    <externalId>false</externalId>
+    <inlineHelpText>URL to the related ticket</inlineHelpText>
+    <label>Freshservice Integration</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

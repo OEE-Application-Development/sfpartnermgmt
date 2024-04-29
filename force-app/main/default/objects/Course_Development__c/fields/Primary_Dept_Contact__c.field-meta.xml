@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Dept_Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Program, Dept, or College, whomever is your primary contact</inlineHelpText>
+    <label>Primary Dept Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Course Development</relationshipLabel>
+    <relationshipName>Course_Development</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

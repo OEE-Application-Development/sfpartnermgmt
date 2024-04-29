@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level_or_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Your PRIMARY working relationship: 1. Program or 2. Dept or 3. College or Business or Educational Institution</inlineHelpText>
+    <label>College, Business, Dept or Program</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>College/Business/Educational</fullName>
+                <default>false</default>
+                <label>College/Business/Educational</label>
+            </value>
+            <value>
+                <fullName>Department</fullName>
+                <default>false</default>
+                <label>Department</label>
+            </value>
+            <value>
+                <fullName>Program</fullName>
+                <default>false</default>
+                <label>Program</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

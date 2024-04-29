@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CD_AutoNumber__c</fullName>
+    <description>Created to add some specificity to the record naming process: A helper field that should not be on the layout, this is used in conjunction with the naming convention field.</description>
+    <displayFormat>{00000}</displayFormat>
+    <externalId>false</externalId>
+    <label>CD AutoNumber</label>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

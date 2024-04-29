@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field designates the primary relationship of this Partner Mgmt Record, is the work primarily at the Dept level? If so, complete this field in addition to the College but not the Program</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Is the work primarily with the Dept? Complete this field but not the Program</inlineHelpText>
+    <label>Department</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>University Department</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Department_Relationship</relationshipLabel>
+    <relationshipName>Department_Relationship</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

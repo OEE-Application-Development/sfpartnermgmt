@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Contact__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Dec 19 2022 creation date. Jan 6 2023 just removed the filter, in working with CRPS we found the &quot;shared with OEE&quot; was preventing us from finding the right person.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Optional, your primary contact in this instance</inlineHelpText>
+    <label>Primary Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Partner Management</relationshipLabel>
+    <relationshipName>Partner_Management</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

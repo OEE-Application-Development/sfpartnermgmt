@@ -1,6 +1,6 @@
 {
   "orgName": "sfpartnermgmt - Dev Org",
-  "sourceOrg": "00D6g000002hydVEAQ",
+  "edition": "Enterprise",
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
